@@ -1,0 +1,33 @@
+.container{
+    margin-bottom: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hbar{
+    width: 100%;
+}
+
+.hbar .outer{
+    width: 100%;
+    height: 7px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 3px rgb(59, 127, 134);
+
+}
+.hbar .inner{
+   
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    animation: hbar 1s ease-in;
+}
+@keyframes hbar {
+   
+    0%{
+        width: 0%;
+    }
+}

@@ -1,0 +1,33 @@
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+}
+.Card{
+    height: 70px;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(36, 43, 43);
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    transition: .1s ease-in;
+}
+.Card:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 4px rgb(35, 115, 153);
+}
+.Card #icon{
+    color: rgb(159, 160, 160); 
+}
+.tags{
+    flex:1;
+}
+.tags i{
+    position: relative;
+    top:-1px;
+    left: -3px;
+    
+}

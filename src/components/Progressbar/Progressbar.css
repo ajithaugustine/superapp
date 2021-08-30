@@ -1,0 +1,24 @@
+
+#number{
+    color: white;
+    font-size: 13px;
+}
+.svg{
+    position: relative;
+    left: -42px;
+   transform: rotate(-88deg);
+}
+.svg circle{
+  fill: none;
+  stroke: rgb(22, 177, 177);
+  stroke-width: 5px;
+  stroke-dasharray: 155;
+  animation: anim 1s ease ;
+}
+
+@keyframes anim{
+    0%{
+        stroke-dashoffset:155;
+    }
+ 
+}
